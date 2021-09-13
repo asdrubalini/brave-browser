@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.29.79](https://github.com/brave/brave-browser/releases/tag/v1.29.79)
+
+ - Fixed issue where site settings were not being retained in certain cases. ([#17859](https://github.com/brave/brave-browser/issues/17859))
+
+## [1.29.78](https://github.com/brave/brave-browser/releases/tag/v1.29.78)
+
+ - Fixed Brave crash when launching Twitter App on tablets running Android 5. ([#17735](https://github.com/brave/brave-browser/issues/17735))
+ - Fixed browser crash when closing private tabs after interacting with shields on private tab. ([#17657](https://github.com/brave/brave-browser/issues/17657))
+ - Upgraded Chromium to 93.0.4577.63. ([#17790](https://github.com/brave/brave-browser/issues/17790)) ([Changelog for 93.0.4577.63](https://chromium.googlesource.com/chromium/src/+log/93.0.4577.58..93.0.4577.63?pretty=fuller&n=1000))
+
+## [1.29.76](https://github.com/brave/brave-browser/releases/tag/v1.29.76)
+
+ - Added ephemeral support to "BroadcastChannel". ([#17220](https://github.com/brave/brave-browser/issues/17220))
+ - Added Uphold user ID under brave://rewards-internals to assist with rewards support. ([#16937](https://github.com/brave/brave-browser/issues/16937))
+ - Updated the date of installation parameter in the stats ping to expire in 30 days. ([#17089](https://github.com/brave/brave-browser/issues/17089))
+ - Removed the Brave Rewards semi-verified user wallet state which occurred in certain cases. ([#15390](https://github.com/brave/brave-browser/issues/15390))
+ - Upgraded Chromium to 93.0.4577.58. ([#17668](https://github.com/brave/brave-browser/issues/17668)) ([Changelog for 93.0.4577.58](https://chromium.googlesource.com/chromium/src/+log/92.0.4515.159..93.0.4577.58?pretty=fuller&n=1000))
+
 ## [1.28.106](https://github.com/brave/brave-browser/releases/tag/v1.28.106)
 
  - Upgraded Chromium to 92.0.4515.159. ([#17513](https://github.com/brave/brave-browser/issues/17513)) ([Changelog for 92.0.4515.159](https://chromium.googlesource.com/chromium/src/+log/92.0.4515.131..92.0.4515.159?pretty=fuller&n=10000))
